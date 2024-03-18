@@ -1,0 +1,75 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card{
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.card__hp{
+    width: 3.125rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-radius: 1.5625rem;
+    align-self: flex-end;
+}
+
+.card__hp span{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.card__img{
+    width: 12.5rem;
+    height: 7.5rem;
+    margin: 1.25rem auto;
+}
+
+.card__name{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.card__type{
+    text-align: center;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.card__stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stat__value{
+    font-size: 1.2rem;
+}
+
+.stat__type{
+    color: var(--color-gray-300);
+}
+
+.card_fav{
+    position: absolute;
+    padding: 0.5rem 0;
+    color: var(--color-fav-icon);
+    cursor:pointer;
+}
